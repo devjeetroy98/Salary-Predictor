@@ -38,3 +38,33 @@ label{
     margin-left: 200px;
     margin-right: 200px;
 }
+
+@media only screen and (max-width: 600px) {
+    .navbar-brand{
+        margin-left: 40px;
+        font-size: 24px;
+        font-weight: bold;
+    }
+    form{
+        align-content: center;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top: 60px;
+    }
+    .predictable{
+        margin-left: 50px;
+        margin-right: 50px;
+        text-align: center;
+        background-color: white;
+        color: black;
+        font-weight: bold;
+        height: 80px;
+        padding-top: 25px;
+        font-size: 18px;
+    }
+    .l2{
+        margin-top: 30px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+  }
